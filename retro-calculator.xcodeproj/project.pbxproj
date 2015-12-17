@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA2570F81C23193000580E95 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA2570F71C23193000580E95 /* Minecraft.ttf */; };
 		DA29A23F1C21BEC20000C292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29A23E1C21BEC20000C292 /* AppDelegate.swift */; };
 		DA29A2411C21BEC20000C292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA29A2401C21BEC20000C292 /* ViewController.swift */; };
 		DA29A2441C21BEC20000C292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA29A2421C21BEC20000C292 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA2570F71C23193000580E95 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		DA29A23B1C21BEC20000C292 /* retro-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retro-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA29A23E1C21BEC20000C292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA29A2401C21BEC20000C292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		DA29A23D1C21BEC20000C292 /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				DA2570F71C23193000580E95 /* Minecraft.ttf */,
 				DA29A23E1C21BEC20000C292 /* AppDelegate.swift */,
 				DA29A2401C21BEC20000C292 /* ViewController.swift */,
 				DA29A2421C21BEC20000C292 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				DA29A2491C21BEC20000C292 /* LaunchScreen.storyboard in Resources */,
 				DA29A2461C21BEC20000C292 /* Assets.xcassets in Resources */,
+				DA2570F81C23193000580E95 /* Minecraft.ttf in Resources */,
 				DA29A2441C21BEC20000C292 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +288,7 @@
 				DA29A24F1C21BEC20000C292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

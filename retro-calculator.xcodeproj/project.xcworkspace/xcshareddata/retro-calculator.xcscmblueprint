@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ECCA3A64AFF57256CE608CE8EFE2383DC851F10B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ECCA3A64AFF57256CE608CE8EFE2383DC851F10B" : 0,
+    "6AA332F083E94695E9122815033E13951E9A57B3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6971B0C0-F4B6-470C-9FE4-B7D7224BBA8D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ECCA3A64AFF57256CE608CE8EFE2383DC851F10B" : "Calculator\/",
+    "6AA332F083E94695E9122815033E13951E9A57B3" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "retro-calculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "retro-calculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/PaulTyutyun\/udemy_ios9_and_swift_beg-to-prof.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6AA332F083E94695E9122815033E13951E9A57B3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/PaulTyutyun\/ios_calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ECCA3A64AFF57256CE608CE8EFE2383DC851F10B"
+    }
+  ]
+}
