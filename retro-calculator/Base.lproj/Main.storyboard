@@ -249,16 +249,17 @@
                                     <rect key="frame" x="231" y="156" width="338" height="553"/>
                                 </variation>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9192039" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2BX-i8-j6J">
-                                <rect key="frame" x="159" y="33" width="280" height="61"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9192039" textAlignment="right" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="2BX-i8-j6J">
+                                <rect key="frame" x="317" y="45" width="115" height="30"/>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4MW-fA-bsm" firstAttribute="bottom" secondItem="dul-So-o13" secondAttribute="bottom" constant="-10" id="3Dv-Ip-RJT"/>
+                            <constraint firstItem="2BX-i8-j6J" firstAttribute="width" relation="lessThanOrEqual" secondItem="L4X-Kr-bIX" secondAttribute="width" multiplier="0.95" id="3fU-do-0DS"/>
                             <constraint firstItem="4MW-fA-bsm" firstAttribute="width" relation="lessThanOrEqual" secondItem="loW-tN-aQm" secondAttribute="width" multiplier="0.94" id="4wv-A1-qOZ"/>
                             <constraint firstItem="4MW-fA-bsm" firstAttribute="width" secondItem="dul-So-o13" secondAttribute="width" multiplier="0.85" id="BA6-Ux-4bY"/>
                             <constraint firstItem="dul-So-o13" firstAttribute="width" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="COR-6Q-TnG"/>
@@ -269,15 +270,18 @@
                             <constraint firstAttribute="trailing" secondItem="AUL-eN-Y7l" secondAttribute="trailing" id="KJq-v1-WFA"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AUL-eN-Y7l" secondAttribute="bottom" id="N6o-dE-abj"/>
                             <constraint firstItem="dul-So-o13" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pwb-FZ-GrN"/>
+                            <constraint firstItem="L4X-Kr-bIX" firstAttribute="trailing" secondItem="2BX-i8-j6J" secondAttribute="trailing" constant="20" id="Qv8-xC-DSE"/>
                             <constraint firstItem="dul-So-o13" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Uw7-qR-Cjk"/>
                             <constraint firstItem="4MW-fA-bsm" firstAttribute="centerY" secondItem="loW-tN-aQm" secondAttribute="centerY" id="Wik-OP-LLB"/>
                             <constraint firstItem="dul-So-o13" firstAttribute="centerX" secondItem="4MW-fA-bsm" secondAttribute="centerX" id="YSx-vx-kFR"/>
                             <constraint firstItem="4MW-fA-bsm" firstAttribute="width" relation="lessThanOrEqual" secondItem="dul-So-o13" secondAttribute="width" multiplier="0.85" id="ZMX-BH-GVm"/>
                             <constraint firstItem="4MW-fA-bsm" firstAttribute="height" relation="lessThanOrEqual" secondItem="loW-tN-aQm" secondAttribute="height" multiplier="0.9" id="hGE-Kc-7vJ"/>
+                            <constraint firstItem="2BX-i8-j6J" firstAttribute="height" relation="lessThanOrEqual" secondItem="L4X-Kr-bIX" secondAttribute="height" multiplier="0.95" id="hQw-RS-I0p"/>
                             <constraint firstItem="AUL-eN-Y7l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iyp-4j-yG2"/>
                             <constraint firstItem="AUL-eN-Y7l" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kMR-aQ-HoG"/>
                             <constraint firstItem="4MW-fA-bsm" firstAttribute="centerX" secondItem="loW-tN-aQm" secondAttribute="centerX" id="l47-kd-TAH"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dul-So-o13" secondAttribute="trailing" constant="20" id="wZH-q8-RQW"/>
+                            <constraint firstItem="L4X-Kr-bIX" firstAttribute="centerY" secondItem="2BX-i8-j6J" secondAttribute="centerY" id="yiu-uX-q2K"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
