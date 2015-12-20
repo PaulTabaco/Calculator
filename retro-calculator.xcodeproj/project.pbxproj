@@ -13,6 +13,7 @@
 		DA29A2441C21BEC20000C292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA29A2421C21BEC20000C292 /* Main.storyboard */; };
 		DA29A2461C21BEC20000C292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA29A2451C21BEC20000C292 /* Assets.xcassets */; };
 		DA29A2491C21BEC20000C292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA29A2471C21BEC20000C292 /* LaunchScreen.storyboard */; };
+		DAD9E39A1C26028500BD5648 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = DAD9E3991C26028500BD5648 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DA29A2451C21BEC20000C292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA29A2481C21BEC20000C292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA29A24A1C21BEC20000C292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD9E3991C26028500BD5648 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				DA2570F71C23193000580E95 /* Minecraft.ttf */,
+				DAD9E3991C26028500BD5648 /* btn.wav */,
 				DA29A23E1C21BEC20000C292 /* AppDelegate.swift */,
 				DA29A2401C21BEC20000C292 /* ViewController.swift */,
 				DA29A2421C21BEC20000C292 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD9E39A1C26028500BD5648 /* btn.wav in Resources */,
 				DA29A2491C21BEC20000C292 /* LaunchScreen.storyboard in Resources */,
 				DA29A2461C21BEC20000C292 /* Assets.xcassets in Resources */,
 				DA2570F81C23193000580E95 /* Minecraft.ttf in Resources */,
