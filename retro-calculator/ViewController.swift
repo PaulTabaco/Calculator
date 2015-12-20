@@ -54,10 +54,23 @@ class ViewController: UIViewController {
     
     @IBAction func numberPressed (btn:UIButton!) {
         playSound()
-        runningNumber += "\(btn.tag)"
-        outputLbl.text = runningNumber
+        if btn.tag != 10 {
+            runningNumber += "\(btn.tag)"
+            outputLbl.text = runningNumber
+        } else if runningNumber != "" {
+            runningNumber = String(runningNumber.characters.dropLast(1))
+            outputLbl.text = runningNumber
+        }
     }
-
+    
+    @IBAction func clear () {
+        runningNumber = ""
+        leftValStr = ""
+        rightVarStr = ""
+        currentOperation = Operation.Empty
+        result = ""
+        outputLbl.text = "0"
+    }
 
     @IBAction func onDividePressed(sender: AnyObject) {
         processOperation(Operation.Divide)
@@ -88,6 +101,10 @@ class ViewController: UIViewController {
             if runningNumber != "" {
                 rightVarStr = runningNumber
                 runningNumber = ""
+                // Patch for avoid crashing (Double(leftValStr))
+                if leftValStr == "" {
+                    leftValStr = "0"
+                }
                 
                 if currentOperation == Operation.Multiply {
                     result = "\(Double(leftValStr)! * Double(rightVarStr)!)"
